@@ -112,7 +112,7 @@ const initialValue = {
       presentName:'',
       zipcode:'',
       addr_1:'',
-      addr_2:'', 
+      addr_2:'',
       bizType:'',
       bizCond:'',
       bizTel_0:'02',
@@ -470,3 +470,5 @@ const setDatas = (state = initialValue, action) => {
 }
 
 export default combineReducers({setDatas})
+
+//test compaer
