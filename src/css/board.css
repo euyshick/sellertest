@@ -1,0 +1,54 @@
+/* color */
+.box-board {
+  border-top: 2px solid #333; }
+
+.board {
+  width: 100%; }
+  .board.thead-lft th {
+    font-size: 12px;
+    color: #666;
+    background: #f9f9fa;
+    text-align: left; }
+    .board.thead-lft th label,
+    .board.thead-lft th span {
+      display: inline-block;
+      margin-left: 20px;
+      padding: 21px 0;
+      font-weight: bold;
+      vertical-align: middle;
+      cursor: default; }
+      .board.thead-lft th label.required,
+      .board.thead-lft th span.required {
+        padding-left: 10px;
+        background: url("https://img.happyshopping.kr/img_static/img_pres/_v3/bul_dot_red.png") no-repeat 0 50%; }
+    .board.thead-lft th.vt {
+      vertical-align: top; }
+  .board.thead-lft td {
+    color: #333; }
+    .board.thead-lft td .box-td {
+      padding: 10px 20px; }
+  .board.thead-lft th,
+  .board.thead-lft td {
+    border-bottom: 1px solid #e8e7ea; }
+  .board.thead-lft .ls-nor {
+    letter-spacing: 0; }
+  .board.thead-lft .dash {
+    display: inline-block;
+    height: 1px;
+    width: 14px;
+    background: url("https://img.happyshopping.kr/img_static/img_pres/_v3/bg_dash.gif") no-repeat 50% 50%;
+    vertical-align: middle; }
+  .board.thead-top th {
+    height: 39px;
+    border-bottom: 1px solid #333;
+    font-size: 12px; }
+  .board.thead-top th,
+  .board.thead-top td {
+    border-left: 1px solid #e8e7ea;
+    border-bottom: 1px solid #e8e7ea;
+    text-align: center; }
+    .board.thead-top th:first-child,
+    .board.thead-top td:first-child {
+      border-left: 0; }
+  .board.thead-top td .box-td {
+    padding: 5px 10px; }
