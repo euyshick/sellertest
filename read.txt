@@ -1,10 +1,12 @@
-index.js
+reducer =>   index.js
+
+formdata/validstatus....
 
 
+joinUser.js
 
 
-joinuser.js
-
+556:formvalid() // À¯È¿¼º
 
 
 
